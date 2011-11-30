@@ -4,8 +4,8 @@ include("header.htm");
 
 <div id="tabs">
 <ul>
-   <li><a href="#">Simple</a></li>
-   <li><a href="#">Complex</a></li>
+   <li><a href="#simpleCitation">Simple</a></li>
+   <li><a href="#complexCitation">Complex</a></li>
 </ul>
 <div id="simpleCitation">
    <label for="title">Title</label><br />
