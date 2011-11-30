@@ -42,6 +42,16 @@ include("header.htm");
    <button id="generate">Generate Template</button><br>
 </div>
 </div>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="14" height="14" class="clippy" id="clippy">
+   <param name="movie" value="/assets/clippy.swf">
+   <param name="allowScriptAccess" value="always">
+   <param name="quality" value="high">
+   <param name="scale" value="noscale">
+   <param name="FlashVars" value="id=generatedCitationTemplate&amp;copied=copied!&amp;copyto=copy to clipboard">
+   <param name="bgcolor" value="#FFFFFF">
+   <param name="wmode" value="opaque">
+   <embed src="/assets/clippy.swf" width="14" height="14" name="clippy" quality="high" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="id=generatedCitationTemplate&amp;copied=copied!&amp;copyto=copy to clipboard" bgcolor="#FFFFFF" wmode="opaque">
+</object>
 <div id="generatedCitationTemplate"></div>
 <?php
 include("footer.htm");
