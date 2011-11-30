@@ -2,6 +2,11 @@
 
 */
 
+// set up jquery-ui tabs
+$(function() {
+   $( "#tabs" ).tabs();
+});
+
 function generateSimpleCitation() {
    var content = "<pre>"+
                  "{{Cite book\n"+

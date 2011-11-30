@@ -1,8 +1,14 @@
 <?php
 include("header.htm");
 ?>
+
+<div id="tabs">
+<ul>
+   <li><a href="#">Simple</a></li>
+   <li><a href="#">Complex</a></li>
+</ul>
 <div id="simpleCitation">
-<!--   <label for="title">Title</label><br />
+   <label for="title">Title</label><br />
    <input type="text" id="title" size="50" /><br />
    <label for="author">Author</label><small>  (DIY wikilinks required)</small><br />
    <input type="text" id="author" size="50" /><br />
@@ -13,7 +19,6 @@ include("header.htm");
    <label for="isbn">ISBN</label><br />
    <input type="text" id="isbn" size="50" /><br />
    <button onclick="generateSimpleCitation();">Generate Template</button>
--->
 </div>
 
 <div id="complexCitation">
@@ -36,7 +41,7 @@ include("header.htm");
    <label for="isbn">ISBN</label><br /><input type="text" id="isbn" size="50" /><br />
    <button id="generate">Generate Template</button><br>
 </div>
-
+</div>
 <div id="generatedCitationTemplate"></div>
 <?php
 include("footer.htm");
